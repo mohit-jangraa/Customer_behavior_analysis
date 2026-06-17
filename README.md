@@ -1,166 +1,148 @@
-📊 Data Analytics Project – End-to-End Business Intelligence Solution
-📌 Overview
+# 📊 Retail Sales Analytics Dashboard
 
-This project demonstrates a complete Data Analytics workflow, from data loading and cleaning to dashboard creation and business reporting. The objective is to transform raw data into meaningful insights that support data-driven decision-making.
+## 📌 Project Overview
+This project analyzes retail sales data to uncover customer purchasing behavior, sales trends, and business performance metrics. The workflow covers data cleaning, SQL analysis, dashboard development, and business reporting.
 
-The project includes:
+## 🎯 Business Problem
+Businesses often struggle to identify:
+- Top-performing products
+- Customer purchasing patterns
+- Preferred payment methods
+- Revenue trends across locations
+- Opportunities to improve sales performance
 
-Data Loading & Exploration
-Data Cleaning & Preprocessing
-SQL Analysis
-Power BI Dashboard Development
-Business Insights Report
-Presentation Creation using Gamma
-📂 Dataset
+This project provides data-driven insights to support better business decisions.
 
-Dataset Name: [Dataset Name]
+---
 
-Source: [Kaggle / Company Data / Public Dataset]
+## 🛠️ Tech Stack
 
-Description:
-The dataset contains information related to customers, sales, products, transactions, and business operations. It is used to analyze performance, identify trends, and generate actionable insights.
+- **Python** (Pandas, NumPy)
+- **SQL** (PostgreSQL / MySQL / SQL Server)
+- **Power BI**
+- **Excel**
+- **Gamma** (Presentation)
+- **Git & GitHub**
 
-Key Columns:
+---
 
-Customer Information
-Product Details
-Sales & Revenue Data
-Transaction Records
-Payment Information
-Location Details
-🛠️ Tools & Technologies Used
-Tool	Purpose
-Python	Data Cleaning & Analysis
-Pandas	Data Manipulation
-NumPy	Numerical Operations
-Matplotlib / Seaborn	Data Visualization
-PostgreSQL / MySQL / SQL Server	SQL Queries & Analysis
-Power BI	Interactive Dashboard
-Gamma	Business Presentation
-Git & GitHub	Version Control & Project Showcase
-🔄 Project Workflow
-1. Data Loading
-Imported raw dataset into Python.
-Performed initial exploration and validation.
-Checked data types and dataset structure.
-2. Data Cleaning
-Removed duplicate records.
-Handled missing values.
-Corrected inconsistent data formats.
-Standardized column names.
-Prepared clean data for analysis.
-3. SQL Analysis
+## 📂 Dataset
+The dataset contains information related to:
+- Customers
+- Products
+- Sales Transactions
+- Payment Methods
+- Locations
+- Purchase Frequency
 
-Performed business analysis using SQL queries:
+---
 
-Total Sales Analysis
-Customer Segmentation
-Top Selling Products
-Revenue Trends
-Regional Performance Analysis
-Payment Method Analysis
-Customer Purchase Behavior
-4. Dashboard Development
+## 🔄 Project Workflow
 
-Created an interactive Power BI dashboard featuring:
+### 1. Data Cleaning
+- Removed duplicates
+- Handled missing values
+- Standardized column names
+- Corrected data types
 
-KPI Cards
-Sales Performance Overview
-Revenue Trends
-Customer Insights
-Product Analysis
-Geographic Analysis
-Payment Method Distribution
-Interactive Filters & Slicers
-5. Business Reporting
+### 2. SQL Analysis
+Performed business analysis including:
+- Total Sales
+- Sales by Payment Method
+- Top Products
+- Customer Segmentation
+- Regional Performance
 
-Prepared a detailed report summarizing:
+### 3. Power BI Dashboard
+Created an interactive dashboard featuring:
+- Revenue KPIs
+- Sales Trends
+- Customer Insights
+- Product Performance
+- Payment Method Analysis
+- Geographic Analysis
 
-Key Findings
-Business Trends
-Performance Metrics
-Opportunities for Improvement
-Strategic Recommendations
-6. Presentation Creation
+### 4. Business Reporting
+Generated actionable business insights and recommendations.
 
-Created a professional presentation using Gamma to communicate:
+---
 
-Project Objective
-Methodology
-Dashboard Walkthrough
-Key Insights
-Business Recommendations
-📊 Dashboard Highlights
+## 📊 Dashboard Preview
 
-Key metrics included in the dashboard:
+### Executive Dashboard
+![Dashboard Screenshot](images/dashboard.png)
 
-Total Revenue
-Total Orders
-Number of Customers
-Average Order Value
-Top Products
-Top Locations
-Sales by Payment Method
-Customer Purchase Frequency
-📈 Results & Insights
+---
 
-Some of the key insights derived from the analysis:
+## 📈 Key Insights
 
-Identified top-performing products contributing the highest revenue.
-Analyzed customer purchasing behavior and frequency.
-Determined the most preferred payment methods.
-Evaluated sales performance across locations.
-Identified seasonal and category-based sales trends.
-Provided recommendations for improving business performance.
-📁 Project Structure
-Data-Analytics-Project/
+- Identified top revenue-generating products.
+- Analyzed customer purchase frequency.
+- Determined the most preferred payment methods.
+- Evaluated sales performance across regions.
+- Highlighted trends and growth opportunities.
+
+---
+
+## 📁 Project Structure
+
+```text
+Retail-Sales-Analytics/
 │
 ├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
-│
 ├── notebooks/
-│   └── analysis.ipynb
-│
 ├── sql/
-│   └── business_queries.sql
-│
 ├── dashboard/
-│   └── powerbi_dashboard.pbix
-│
 ├── reports/
-│   └── business_report.pdf
-│
 ├── presentation/
-│   └── gamma_presentation.pdf
-│
 ├── images/
-│   └── dashboard_screenshots
-│
 └── README.md
-▶️ How to Run
-Clone Repository
-git clone <repository-link>
-cd Data-Analytics-Project
-Install Dependencies
-pip install pandas numpy matplotlib seaborn sqlalchemy
-Run Analysis
+```
+
+---
+
+## 🚀 How to Run
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/retail-sales-analytics.git
+cd retail-sales-analytics
+```
+
+### Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib sqlalchemy
+```
+
+### Run Analysis
+
+```bash
 python analysis.py
-SQL Execution
-Import dataset into PostgreSQL / MySQL / SQL Server.
-Execute queries from the sql folder.
-Open Dashboard
-Open .pbix file using Power BI Desktop.
-Refresh data source if required.
-🚀 Future Improvements
-Automate ETL pipeline.
-Deploy dashboard online.
-Integrate real-time data sources.
-Add predictive analytics and forecasting models.
-👨‍💻 Author
+```
 
-Mohit Jangra
+### Open Dashboard
 
-Aspiring Data Analyst focused on transforming raw data into actionable business insights through SQL, Python, and Power BI.
+Open the `.pbix` file using Power BI Desktop.
 
-⭐ If you found this project useful, consider giving it a star on GitHub.
+---
+
+## 📄 Deliverables
+
+- Cleaned Dataset
+- SQL Queries
+- Power BI Dashboard
+- Business Report
+- Gamma Presentation
+
+---
+
+## 👨‍💻 Author
+
+**Mohit Jangra**
+
+Aspiring Data Analyst | SQL | Python | Power BI
+
+LinkedIn: Your LinkedIn Profile  
+GitHub: https://github.com/yourusername
