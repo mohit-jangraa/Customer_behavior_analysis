@@ -67,12 +67,6 @@ Generated actionable business insights and recommendations.
 
 ---
 
-## 📊 Dashboard Preview
-
-### Executive Dashboard
-![Dashboard Screenshot](images/dashboard.png)
-
----
 
 ## 📈 Key Insights
 
@@ -84,20 +78,7 @@ Generated actionable business insights and recommendations.
 
 ---
 
-## 📁 Project Structure
 
-```text
-Retail-Sales-Analytics/
-│
-├── data/
-├── notebooks/
-├── sql/
-├── dashboard/
-├── reports/
-├── presentation/
-├── images/
-└── README.md
-```
 
 ---
 
